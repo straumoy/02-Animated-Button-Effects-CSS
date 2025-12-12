@@ -1,1 +1,15 @@
 /* style.css file */
+html,
+body {
+    margin: 20px;
+}
+.btn {
+    background: linear-gradient(45 deg, #2196f3, #21cbf3);
+    color: #fff;
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px rgba(0, 0, 0, 0.3);
+}
